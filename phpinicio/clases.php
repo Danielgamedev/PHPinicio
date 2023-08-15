@@ -26,7 +26,7 @@ class Menu {
     private $platos = array();
 
     public function __construct() {
-        // Agregar los platos al menú
+        
         $this->platos[] = new Plato("Hamburguesa Clásica", "Deliciosa hamburguesa con carne de res y queso", 8.99, "Hamburguesas");
         $this->platos[] = new Plato("Hamburguesa Doble", "Deliciosa hamburguesa con doble carne de res y queso", 10.99, "Hamburguesas");
         $this->platos[] = new Plato("Hamburguesa Magnific", "Deliciosa hamburguesa con carne de res, queso, huevo", 20.99, "Hamburguesas");
