@@ -51,6 +51,7 @@ class Menu {
 }
 $menu = new Menu();
 $menu->mostrarMenu();
+?>
 
 
 
